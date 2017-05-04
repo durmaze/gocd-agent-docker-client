@@ -1,4 +1,4 @@
-FROM gocd/gocd-agent-alpine-3.5:latest
+FROM gocd/gocd-agent-alpine-3.5:v17.4.0
 
 MAINTAINER durmaze
 
