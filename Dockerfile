@@ -11,5 +11,5 @@ RUN \
   # add goagent user "go" to docker group so that it can access docker.sock
   # "ping" group's GID collides with host's "docker" group's GID. simply remove group "ping"
   delgroup ping && \
-  addgroup -g 999 docker && \
+  addgroup -g 983 docker && \
   addgroup go docker
